@@ -31,7 +31,7 @@ module.exports = appInfo => {
       host: 'localhost',
       port: '3306',
       user: 'root',
-      password: '4HS@1f1G5&nws+D',
+      password: 'password',
       database: 'egg_article',
     },
     // load into app, default true
