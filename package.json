@@ -25,7 +25,7 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-egg-article-server",
+    "start": "egg-scripts start --daemon --title=egg-server-egg-article-server --stdout=./logs/master-stdout.log --stderr=./logs/master-stderr.log",
     "stop": "egg-scripts stop --title=egg-server-egg-article-server",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
